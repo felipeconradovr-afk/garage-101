@@ -1,0 +1,2 @@
+"use client";
+export default function ErrorPage({ reset }: { reset: () => void }) { return <main className="container error-page"><span className="eyebrow">GARAGE 101</span><h1 className="section-title">UMA PAUSA<br />NO CAMINHO.</h1><p className="muted">Não foi possível carregar esta página agora. Tente novamente em instantes.</p><button className="button button-primary" onClick={reset}>Tentar novamente</button></main>; }

@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <main className="container error-page"><span className="eyebrow">GARAGE 101 / 404</span><h1 className="section-title">ESSE CAMINHO<br /><span className="copper-text">NÃO LEVA À GARAGE.</span></h1><p className="muted">A página que você procura não foi encontrada.</p><Link href="/" className="button button-primary">Voltar ao início</Link></main>; }
